@@ -31,7 +31,9 @@ const ArticlesDetail = () => (
     <div className="flex flex-col">
       <label className="text-sm font-semibold ">Content</label>
       <small className="text-gray-400 mb-5">Write your post </small>
-      <div className="border rounded">Editor</div>
+      <div className="border rounded">
+        <Editor />
+      </div>
     </div>
   </div>
 );
